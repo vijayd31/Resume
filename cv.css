@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}  
+body {
+	font-family: Inter, sans-serif;
+	background-color: rgb(8, 8, 8);
+	color: rgb(237, 148, 31);
+} 
+
+.main-container{
+        max-width: 1000px;
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        padding: 2rem 4rem 2rem 4rem;
+        background: #ffffff;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+}
+    @media only screen and (max-width: 768px) {
+        .main-container {
+            width: 100%;
+            grid-template-columns: 1fr;
+            padding: 3rem;
+            gap: 7rem;
+        }
+    }
+    
+.certificate{
+    height: 775px;
+    padding-left: 268px;
+    padding-right: 268px;
+    display: flex;
+    background-color: #a6a6a6;
+    
+}
+
+.left-inner{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.right-inner{
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ gap:2rem;
+}
+.top-inner{
+        grid-column: 1 / -1;
+        margin-bottom: 2rem;
+    }
+
+
+.profile-container {
+       display: flex;
+        gap: 2rem;
+        padding:10px;
+        border-width:thick;
+        border-color: black;
+}
+
+.profile-pic {
+	max-width: 190px;
+    
+}
+.name-designation{
+    display: inline-block;
+}
+
+.profile-name{
+	color: black;
+	font-weight: 700;
+	font-size: clamp(1rem, 10vw, 4.8rem);
+	text-transform: uppercase;
+	display: flex;
+}
+
+.designation {
+	color: rgb(234, 148, 56);
+	font-weight: 500;
+	font-size: clamp(1.3rem, 1.5vw, 3rem);
+	text-transform: uppercase;
+	display: block;
+    align-self: center;
+	margin-bottom: -0.8rem;
+}
+
+.title {
+	color: rgb(237, 148, 31);
+	font-weight: 700;
+	font-size: 1.3rem;
+	text-transform: uppercase;  
+}
+.contact-details{
+    margin-top: .5rem;
+	margin-left: 2rem;
+	line-height: 2;
+    color: black;
+}
+.contact-details2{
+    
+	margin-left: 2rem;
+	line-height: 2;
+    color: black;
+}
+.dark{
+    font-weight: 600;
+
+}
+.skills-list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+    color:black;
+}
+.contact-details3{
+    margin-top: .5rem;
+	margin-left: 2rem;
+	/* line-height: 2; */
+    color: black;
+}
+.contact-details4{
+    margin-top: 1rem;
+	margin-left: 2rem;
+	/* line-height: 2; */
+    color: black;
+}
+.protitle{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+        font-size: 1rem;
+        font-weight: 700;
+        color:black;
+    
+}
+
+.sign{
+    width:80px;
+    height:80px;
+}
+
+.year{
+    margin-top: .5rem;
+	margin-left: 1rem;
+	/* line-height: 2; */
+    color: rgb(234, 148, 56);
+    font-weight: 600;
+}
+.fyear{
+    margin-top: 1rem;
+	margin-left: 1rem;
+    
+	/* line-height: 2; */
+    color: rgb(234, 148, 56);
+    font-weight: 600;
+}
+.clg{
+    margin-top: .5rem;
+	margin-left: 2rem;
+    font-weight: 500;
+	/* line-height: 2; */
+    color: black;
+
+}
+
+.study{
+    margin-top:.2rem;
+    margin-left:2rem;
+    color:black;
+}
+.cgpa{
+    margin-top:.2rem;
+    margin-left:2rem;
+    font-weight: 420;
+    color:black;
+}
+.declaration{
+    display: flex;
+    justify-content: end;
+}
